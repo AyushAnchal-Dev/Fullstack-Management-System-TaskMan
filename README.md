@@ -45,9 +45,12 @@ Loading states, validation, and error messages
 
 🌍 Deployment Ready
 
-Frontend hosted on Netlify
+Frontend hosted on vercel:
 
-Backend hosted on Heroku
+fullstack-management-system-task-ma-one.vercel.app
+
+Backend hosted on render:
+https://fullstack-management-system-taskman.onrender.com
 
 Connected with MongoDB Atlas
 
