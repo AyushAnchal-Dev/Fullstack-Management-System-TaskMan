@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark light;
+}
+
+/* smooth cards */
+.card {
+  @apply rounded-2xl bg-neutral-900/60 backdrop-blur shadow-lg border border-neutral-800;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-xl px-4 py-2 font-semibold transition;
+}
+
+.btn-primary {
+  @apply btn bg-brand hover:bg-brand-700;
+}
+
+.input {
+  @apply w-full rounded-xl bg-neutral-900 border border-neutral-800 px-4 py-2 focus:outline-none focus:ring-2 focus:ring-brand;
+}
+
+.select {
+  @apply input pr-8;
+}
+
+.badge {
+  @apply px-2 py-1 rounded-lg text-xs font-medium bg-neutral-800 border border-neutral-700;
+}
