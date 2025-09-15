@@ -87,11 +87,6 @@ JSON Web Tokens (JWT)
 bcrypt.js
 
 
-Deployment:
-
-Heroku (Backend)
-
-Netlify (Frontend)
 
 
 Version Control:
